@@ -1,4 +1,4 @@
 async def on_user(joined):
-  {joined} = string(user_joined)
+  {joined} = str(user_joined)
   then:
-    print('[Join] {joined} has joined the game')
+    print('[Server] {joined} has joined the game')
