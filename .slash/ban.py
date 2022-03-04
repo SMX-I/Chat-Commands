@@ -5,4 +5,5 @@ async def on_message():
   if message.content.startswith('/ban' + user + until + reason):
     then:
       membersfetch.ban('{user} with {until} with {reason}')
+      print(user + 'was banned.')
   
